@@ -4,8 +4,7 @@ ESP-8266 LCD1602 Lyquid Crystal Display biblioteca alternativa pequeña utilizand
 ESP8266 con 20x4 i2c 1602 LCD adaptable a otros, probado con ESP-8266 MOD
 Compatible con el Arduino IDE 1.6.6
 
-Modificado para ESP8266 con pantalla GPIO0-SDA GPIO2-SCL y LCD1602 y
-Modificado para permitir la configuración a través de lcd.begin (sda, scl) u otros GPIO utilizados para I2C
+Modificado para ESP8266 con adaptacion de la pantalla I2C. los pines del esp son: GPIO0-SDA GPIO2-SCL. Permitir la configuración a través de lcd.begin (sda, scl) u otros GPIO utilizados para I2C
 
 # Instalación #
 Cree una nueva carpeta llamada "LiquidCrystal_I2C" en la carpeta denominada "libraries" en su carpeta de sketchbook de Arduino.
